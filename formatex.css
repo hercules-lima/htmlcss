@@ -1,0 +1,20 @@
+body{
+	margin: 0;
+}
+
+.texto{
+	width: 500px;
+	height: 200px;
+	background-color: #EEEEEE;
+	color: #FF0000;
+	font-size: 20px;
+	font-family: Helvetica, Verdana, Arial;
+	/*caso nao encontre a primeira usa a segunda*/
+	font-weight: 300;/*controlar negrito no texto*/
+	text-align: center;
+	/*uppercase tudo maiusculo 
+	lowercase tudo minusculo*/
+	text-transform: uppercase;
+	/*insere sublinhado no texto*/
+	text-decoration: underline;
+}
