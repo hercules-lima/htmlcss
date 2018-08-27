@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Página de Teste</title>
+</head>
+<body>
+	<!--TABLE cria a tabela com largura 500 e borda 1 px-->
+	<table width="500" border="1">
+		<!--TR cria uma linha da tabela
+			bgcolor colore o fundo da tabela-->
+		<tr bgcolor="999999">
+		<!--TD cria uma coluna da tabela-->
+			<td>Produto</td>
+		<!--Definindo largura 60 da coluna idade (automaticamente aplica em todas as linhas)-->	
+			<td width="60">Qt.</td>
+			<td>Preço</td>
+			<td>Imagem</td>
+		</tr>
+		<tr>
+			<td>Pedra</td>
+			<td>2</td>
+			<td width="150">150</td>
+			<td><img src="http://www.google.com.br/google.jpg" width="50"></td>
+		</tr>
+		<tr>
+			<td>Papel</td>
+			<td>2</td>
+			<td width="150">100</td>
+			<td><img src="http://www.google.com.br/google.jpg" width="50"></td>
+		</tr>
+		<tr bgcolor="999999">
+			<!--colspan indica que essa coluna vale por duas colunas (mesclar células)
+				align right alinha o texto a direito
+				também pode ser alinhado a esquerda e centro-->
+			<td colspan="3" align="right">Subtotal</td>
+			<td >250</td>
+		</tr>
+	</table>
+</body>
+</html>
