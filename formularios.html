@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Página de Teste</title>
+</head>
+<body>
+	<!--FORM abre um formulario que enviara dados pelo método post (segurança) para o arquivo login.php-->
+	<form method="POST" action="login.php" >
+		<!--Input cria uma caixa para ler dados
+			type pode ser text password radio checkbox submit-->
+		Usuário:<br/>
+		<input type="text" name="usuario"/><br/><br/>
+		Senha:<br/>
+		<input type="password" name="senha"/><br/><br/>
+		<!--atributo name consiste no nome do campo que contem o valor digitado e sera passado para login.php (todos os campos devem ter um name)-->
+		<textarea name="campo"></textarea><br/><br/>
+		<select name="opcoes">
+			<!--value="1" significa que o valor que sera passado sera 1 e nao RJ-->
+			<option value="1">RJ</option>
+			<option value="2">SP</option>
+			<option value="3">MG</option>
+		</select>
+		<br/><br/>
+		<input type="radio" name="radio" value="1">RJ<br/>
+		<input type="radio" name="radio" value="1">SP<br/>
+		<input type="radio" name="radio" value="1">MG<br/><br/>
+		<input type="submit" name="Enviar"/>
+
+		<!--SELECT cria um menu dropdown para 			selecionar um item
+			RADIO seleciona 1 entre as opções mostradas(parecido com o select porém nao é dropdown)
+			TEXTAREA cria uma area q pode ser ajustada para digitar texto
+			-->
+
+	</form>
+</body>
+</html>
