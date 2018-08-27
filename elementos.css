@@ -1,0 +1,23 @@
+body{
+	margin: 0;
+}
+
+.texto{
+	width: 300px;
+	height: 100px;
+	background-color: #EEEEEE;
+	color: #FF0000;
+	font-size: 20px;
+	font-family: Helvetica,Verdana;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 10px;
+	/*como os elementos são mostrados na tela
+	none nao mostra nada
+	block exibição normal
+	inline se adapta a propria linha do texto
+	inline block um continuamente apos o outro
+	em forma de blocos*/
+	display: inline-block;
+}
