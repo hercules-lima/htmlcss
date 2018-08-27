@@ -1,0 +1,13 @@
+body{
+	background-color: blue;
+	color: white;
+}
+
+h1{
+	color: red;
+}
+/*seletores de tags do html usam apenas seu nome
+e chaves para serem estilizados*/
+img{
+	width: 200px;
+}
