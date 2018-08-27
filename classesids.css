@@ -1,0 +1,27 @@
+body{
+	background-color: blue;
+	color: white;
+}
+
+h1{
+	color: red;
+}
+x
+img{
+	width: 200px;
+}
+/*class é iniciado com um ponto (.) e é indicada 
+para ser colocada num grupo de componentes. uma palheta
+de estilo que pode ser aplicada em quantos componentes
+forem necessário*/
+.teste{
+	width: 400px;
+}
+/*id é iniciado com um quadrado (#) e é indicado
+para estilizar um unico componente. uma estilização
+feita especialmente para aquele componente*/
+#titulo{
+	font-size: 12px;
+}
+/*um elemento pode utilizar os dois class e id ao mesmo
+tempo*/
