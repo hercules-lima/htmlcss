@@ -1,0 +1,30 @@
+body{
+	margin: 0;
+}
+
+.texto{
+	width: 700px;
+	height: 500px;
+	background-color: #EEEEEE;
+	color: #FF0000;
+	font-size: 20px;
+	font-family: Helvetica, Verdana, Arial;
+	/*caso nao encontre a primeira usa a segunda*/
+	font-weight: 300;/*controlar negrito no texto*/
+	text-align: center;
+	/*uppercase tudo maiusculo 
+	lowercase tudo minusculo*/
+	text-transform: uppercase;
+	/*insere sublinhado no texto*/
+	text-decoration: underline;
+
+	/*centraliza a div todas as margens do mesmo tamanho*/
+	margin: auto;
+	/*espaço por fora da div*/
+	margin-top: 20px;
+	/*espaço de 20px antes de colocar texto na div
+	espaço por dentro da div*/
+	padding-top: 20px;
+
+
+}
